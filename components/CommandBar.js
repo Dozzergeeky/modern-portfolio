@@ -174,23 +174,6 @@ export default function CommandBar(props) {
       ),
     },
     {
-      id: 'talks',
-      name: 'Talks',
-      shortcut: ['g', 't'],
-      keywords: 'go-talks',
-      section: 'Go To',
-      perform: () => router.push('/talks'),
-      icon: (
-        <Lottie
-          lottieRef={talksRef}
-          style={iconSize}
-          animationData={talksIcon}
-          loop={false}
-          autoplay={false}
-        />
-      ),
-    },
-    {
       id: 'podcasts',
       name: 'Podcasts',
       shortcut: ['g', 'c'],
@@ -202,23 +185,6 @@ export default function CommandBar(props) {
           lottieRef={podcastsRef}
           style={iconSize}
           animationData={podcastsIcon}
-          loop={false}
-          autoplay={false}
-        />
-      ),
-    },
-    {
-      id: 'investing',
-      name: 'Investing',
-      shortcut: ['g', 'i'],
-      keywords: 'go-investing',
-      section: 'Go To',
-      perform: () => router.push('/investing'),
-      icon: (
-        <Lottie
-          lottieRef={investingRef}
-          style={iconSize}
-          animationData={investingIcon}
           loop={false}
           autoplay={false}
         />

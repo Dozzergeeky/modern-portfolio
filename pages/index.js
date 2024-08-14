@@ -11,7 +11,7 @@ export async function getStaticProps() {
   return {
     props: {
       title: 'Dozzer Geeky',
-      description: 'Obsessed with technology, programming, and being a geek.',
+      description: 'Obsessed with technology, programming, and being a Geek!',
       image: '/static/images/home-bw.jpg',
     },
   }
