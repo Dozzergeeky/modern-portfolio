@@ -56,7 +56,7 @@ function Podcasts(props) {
   }
 
   const { title, image } = props
-  const description = `Audio is a powerful medium and a great way to <strong>debate ideas</strong>. Whenever possible I try to listen to podcasts to <strong>learn from new people</strong> and <strong>get inspired</strong> listing some them below.`
+  const description = `Audio is a powerful medium and a great way to <strong>develop ideas</strong>. Whenever possible I try to listen to podcasts to <strong>learn from new people</strong> and <strong>get inspired</strong> listing some them below.`
 
   return (
     <>
@@ -75,14 +75,14 @@ function Podcasts(props) {
         <h2>Currently Listening</h2>
         <ListGroup>{renderFeatured(appearances)}</ListGroup>
 
-        <h2>ByteTalk</h2>
+        <h2>Best Listens</h2>
         <p>
           A podcast where Jonni and I interview the most productive people in
           tech.
         </p>
         <ListGroup>{renderEpisode(bytetalk)}</ListGroup>
 
-        <h2>Appearances</h2>
+        <h2>Honorable Mentions</h2>
         <p>
           This is the list of all the podcasts that I gave an interview so far.
         </p>

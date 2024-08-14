@@ -3,22 +3,22 @@ const items = [
     year: '2023',
     projects: [
       {
-        title: 'Resend',
-        description: 'Email for developers',
-        url: 'https://resend.com',
+        title: 'Modern Portfolio',
+        description: 'Next generation of personal websites',
+        url: 'https://https://dozzer-portfolio.vercel.app',
         active: true,
         icon: 'resend',
-        stats: '100k+ users',
+        stats: 'latest project',
       },
     ],
   },
   {
-    year: '2022',
+    year: '2023',
     projects: [
       {
-        title: 'React Email',
-        description: 'Next generation of writing emails',
-        url: 'https://react.email',
+        title: '3D Portfolio',
+        description: 'Beautiful 3D portfolio website',
+        url: 'https://portfolio-dozzergeeky.vercel.app',
         active: true,
         icon: 'email',
         stats: '12k+ stars',
@@ -45,7 +45,7 @@ const items = [
       },
       {
         title: 'Dracula UI',
-        url: 'https://draculatheme.com/ui'
+        url: 'https://draculatheme.com/ui',
       },
     ],
   },
