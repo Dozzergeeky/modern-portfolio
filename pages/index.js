@@ -46,7 +46,7 @@ export default function Index(props) {
               <h1>{title}</h1>
               <p>
                 <strong>
-                  Student and Mentor at{' '}
+                  Final Year CSE Student and Mentor at{' '}
                   <a
                     href="https://www.linkedin.com/company/codefeast"
                     target="blank"

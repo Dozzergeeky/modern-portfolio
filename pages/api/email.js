@@ -1,5 +1,5 @@
 import { Resend } from 'resend'
-const resend = new Resend(process.env.RESEND_API_KEY)
+const resend = new Resend(process.env.re_V632FX7v_2ozdxKnkJ8ZybGdKSnuotqMK)
 import EmailTemplate from '../../components/EmailTemplate'
 
 export default async function sendEmail(req, res) {
@@ -7,10 +7,10 @@ export default async function sendEmail(req, res) {
     const data = req.body
 
     await resend.sendEmail({
-      from: 'zenorocha.com <website@zenorocha.com>',
-      to: 'zno.rocha@gmail.com',
+      from: 'modern-portfolio.com <website@modern-portfolio.com>',
+      to: 'd2b4mb@gmail.com',
       replyTo: data.email,
-      subject: `${data.name} - via zenorocha.com`,
+      subject: `${data.name} - via modern-portfolio.com`,
       react: <EmailTemplate {...data} />,
     })
 
