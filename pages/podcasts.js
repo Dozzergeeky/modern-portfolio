@@ -56,7 +56,7 @@ function Podcasts(props) {
   }
 
   const { title, image } = props
-  const description = `Audio is a powerful medium and a great way to <strong>debate ideas</strong>. Whenever possible I try to share my story as a guest or <strong>meet new people</strong> by hosting my own podcast called ByteTalk.`
+  const description = `Audio is a powerful medium and a great way to <strong>debate ideas</strong>. Whenever possible I try to listen to podcasts to <strong>learn from new people</strong> and <strong>get inspired</strong> listing some them below.`
 
   return (
     <>
@@ -72,7 +72,7 @@ function Podcasts(props) {
       <AnimateSharedLayout>
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
-        <h2>Featured Podcasts</h2>
+        <h2>Currently Listening</h2>
         <ListGroup>{renderFeatured(appearances)}</ListGroup>
 
         <h2>ByteTalk</h2>
@@ -87,13 +87,6 @@ function Podcasts(props) {
           This is the list of all the podcasts that I gave an interview so far.
         </p>
         <ListGroup>{renderEpisode(appearances)}</ListGroup>
-
-        <h2>Zone Of Front-Enders</h2>
-        <p>
-          My first podcast, ZOFE, where Daniel and I talked about web
-          technologies.
-        </p>
-        <ListGroup>{renderEpisode(zofe)}</ListGroup>
       </AnimateSharedLayout>
     </>
   )
