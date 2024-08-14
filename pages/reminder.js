@@ -8,7 +8,7 @@ export async function getStaticProps() {
     title: 'Reminder // Dozzer Geeky',
     description:
       'Time is the most important asset. Time does not equal money. Time equals life. And you only have one chance to make it right.',
-    tagline: 'Be your Superhero',
+    tagline: 'Be your own Superhero',
     image: '/static/images/reminder-bw.jpg',
     primaryColor: 'cyan',
     secondaryColor: 'green',
@@ -57,8 +57,9 @@ function Reminder(props) {
           worthless, if you're not admired by your own family. Don't fear the
           unknown. Fear knowing everything.{' '}
           <strong>Life is too damn short</strong> and every day counts.{' '}
-          <strong>Do what you wanna do and do it now</strong>. This is my
-          mantra, go choose yours. <br />
+          <strong>Do what you wanna do and do it now</strong>. This is my oath:{' '}
+          <br />
+          <br />
           <strong>
             In brightest day, in blackest night,
             <br />
@@ -68,7 +69,7 @@ function Reminder(props) {
           </strong>
         </p>
         <p>
-          <em>- by Dozzergeeky</em>
+          <em>~ Dozzergeeky</em>
         </p>
       </Box>
     </>

@@ -86,7 +86,7 @@ function About(props) {
     return (
       <div>
         <p>
-          This is made for anyone who want a good Bio about me to
+          This is made for anyone who want to use my bio. It's a simple
           copy-and-paste.
         </p>
         <blockquote>
@@ -211,7 +211,7 @@ function About(props) {
       <h2>Bio</h2>
       {renderBio()}
 
-      <h2>Career</h2>
+      <h2>Career and Education</h2>
       {renderAll()}
 
       <Toast
