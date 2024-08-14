@@ -20,8 +20,8 @@ export async function getStaticProps() {
       "Debargha Bhattacharjee is a Indian programmer. He lives in Kolkata,India where he's a Final Year Student at NSEC. His lifelong appreciation for building software and sharing knowledge led him to persue CSE as his career. His passion for open source put him over 400+ GitHub contributions age 21. He also is a DSA and MERN Mentor at Codefeast. His enthusiasm for problem solving have made him solve over 350 Questions across all  platforms. He's also a Marvel fan and loves to read comics.",
     tagline: 'Dozzer Geeky',
     image: '/static/images/avatar.jpg',
-    primaryColor: 'pink',
-    secondaryColor: 'purple',
+    primaryColor: 'cyan',
+    secondaryColor: 'green',
   }
 
   return { props: meta }
