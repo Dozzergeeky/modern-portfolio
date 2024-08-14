@@ -8,7 +8,7 @@ export async function getStaticProps() {
   const meta = {
     title: 'Uses // Zeno Rocha',
     description:
-      "I often get messages asking about specific pieces of <strong>software or hardware I use</strong>. This not a static page, it's a <strong>living document</strong> with everything that I'm using nowadays.",
+      "I often get friends asking about pieces of <strong>software or hardware I use</strong> as I'm their official <strong>Tech Advisor</strong> . This not a static page, it's a <strong>living document</strong> with everything that I'm using nowadays.",
     tagline: 'Tools. Apps. Gear.',
     image: '/static/images/uses-bw.jpg',
     primaryColor: 'yellow',

@@ -36,9 +36,9 @@ const categories = [
     name: 'Keyboard',
     items: [
       {
-        title: 'GMK Dracula',
+        title: 'One 3 T KL Cosmic Blue',
         description: 'The single most beautiful keycaps ever created :P',
-        url: 'https://omnitype.com/products/gmk-dracula',
+        url: 'https://www.duckychannel.com.tw/en/One3-TKL-Cosmic-Blue',
       },
       {
         title: 'Keychron K6',
@@ -70,9 +70,9 @@ const categories = [
         url: 'https://code.visualstudio.com',
       },
       {
-        title: 'Dracula PRO',
+        title: 'Tokyo Night Theme',
         description:
-          'This is the theme I created, maintain, and proudly use everywhere.',
+          'After using Catpuccin Mocha for long, this stayed with me.',
         url: 'https://draculatheme.com/pro',
       },
       {
@@ -87,22 +87,28 @@ const categories = [
     name: 'Terminal',
     items: [
       {
-        title: 'Hyper',
+        title: 'Microsoft Terminal with PowerShell 7',
         description:
-          "Performance could be better, but I enjoy using this since it's made with JavaScript.",
-        url: 'https://hyper.is',
+          "With a lot of modifications in PowerShell profile, it's the best on Windows.",
+        url: 'https://github.com/microsoft/terminal',
       },
       {
-        title: 'Oh My ZSH',
+        title: 'Alacritty',
         description:
-          "A collection of ZSH plugins that you install once and you're ready to go.",
-        url: 'https://ohmyz.sh',
+          "Performance is the best being compiled on Rust and it's a graphical so my goto on Linux.",
+        url: 'https://alacritty.org/',
       },
       {
-        title: 'Fig',
+        title: 'Oh My Posh',
         description:
-          'Super cool app that adds VSCode-style autocomplete to your existing terminal',
-        url: 'http://fig.io',
+          "A collection of Powershell plugins that you install once and you're ready to go.",
+        url: 'https://ohmyposh.dev',
+      },
+      {
+        title: 'Chris Titus Tech',
+        description:
+          'I use his dotfiles as a reference to make my terminal look good.',
+        url: 'https://github.com/ChrisTitusTech',
       },
     ],
   },
@@ -234,8 +240,7 @@ const categories = [
       },
       {
         title: 'Infisical',
-        description:
-          'An open-source secrets manager for developers.',
+        description: 'An open-source secrets manager for developers.',
         url: 'https://infisical.com',
       },
       {
@@ -246,8 +251,7 @@ const categories = [
       },
       {
         title: 'Resend',
-        description:
-          'The new email API for developers.',
+        description: 'The new email API for developers.',
         url: 'https://resend.com',
       },
       {

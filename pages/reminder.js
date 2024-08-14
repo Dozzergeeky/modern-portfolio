@@ -5,10 +5,10 @@ import { Box } from '../components/Box'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Reminder // Zeno Rocha',
+    title: 'Reminder // Dozzer Geeky',
     description:
       'Time is the most important asset. Time does not equal money. Time equals life. And you only have one chance to make it right.',
-    tagline: 'Tick-tock. Tick-tock.',
+    tagline: 'Be your Superhero',
     image: '/static/images/reminder-bw.jpg',
     primaryColor: 'cyan',
     secondaryColor: 'green',
@@ -33,9 +33,9 @@ function Reminder(props) {
 
       <Box css={{ textAlign: 'justify' }}>
         <p>
-          <strong>Time is the most important asset.</strong> Time does not equal
-          money. <strong>Time equals life.</strong> And you only have one chance
-          to make it right.{' '}
+          With great power,<strong>comes great responsibility.</strong> Power
+          doesn't mean superpower. <strong>Knowledge equals power.</strong> And
+          you only have one chance to make it right.{' '}
           <strong>
             Every human being is fighting a battle inside themselves.
           </strong>{' '}
@@ -57,11 +57,18 @@ function Reminder(props) {
           worthless, if you're not admired by your own family. Don't fear the
           unknown. Fear knowing everything.{' '}
           <strong>Life is too damn short</strong> and every day counts.{' '}
-          <strong>Do what you wanna do and do it now</strong>. Tick-tock don't
-          stop. Tick-tock don't wait.
+          <strong>Do what you wanna do and do it now</strong>. This is my
+          mantra, go choose yours. <br />
+          <strong>
+            In brightest day, in blackest night,
+            <br />
+            No bug shall escape my sight! <br />
+            Let codes who worship error's might, <br />
+            Beware my power,This Geek's might!
+          </strong>
         </p>
         <p>
-          <em>- by Zeno & Carol</em>
+          <em>- by Dozzergeeky</em>
         </p>
       </Box>
     </>

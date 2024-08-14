@@ -1,4 +1,4 @@
-# zenorocha.com
+# Modern Portfolio 
 
 > My personal website <3
 
@@ -18,13 +18,13 @@
 1. Clone this repo:
 
 ```sh
-$ git clone https://github.com/zenorocha/zenorocha.com.git
+$ git clone https://github.com/zenorocha/modern-portfolio.git
 ```
 
 2. Then go to the project's folder:
 
 ```sh
-cd zenorocha.com
+cd modern-portfolio
 ```
 
 3. Install all dependencies:
@@ -54,31 +54,31 @@ The basic file structure for the project is organized in the following way:
 `-- public
 ```
 
-### [articles](https://github.com/zenorocha/zenorocha.com/tree/master/articles)
+### [articles](https://github.com/Dozzergeeky/modern-portfolio/tree/master/articles)
 
 Here you'll find a list of markdown files for each post.
 
-### [components](https://github.com/zenorocha/zenorocha.com/tree/master/components)
+### [components](https://github.com/Dozzergeeky/modern-portfolio/tree/master/components)
 
 Here you'll find reusable blocks of React components.
 
-### [data](https://github.com/zenorocha/zenorocha.com/tree/master/data)
+### [data](https://github.com/Dozzergeeky/modern-portfolio/tree/master/data)
 
 Here you'll find JSON files that populates each section.
 
-### [layouts](https://github.com/zenorocha/zenorocha.com/tree/master/layouts)
+### [layouts](https://github.com/Dozzergeeky/modern-portfolio/tree/master/layouts)
 
 Here you'll find default templates for different pages.
 
-### [lib](https://github.com/zenorocha/zenorocha.com/tree/master/lib)
+### [lib](https://github.com/Dozzergeeky/modern-portfolio/tree/master/lib)
 
 Here you'll find a set of utilities.
 
-### [pages](https://github.com/zenorocha/zenorocha.com/tree/master/pages)
+### [pages](https://github.com/Dozzergeeky/modern-portfolio/tree/master/pages)
 
 Here you'll find all the main pages of the site.
 
-### [public](https://github.com/zenorocha/zenorocha.com/blob/master/public)
+### [public](https://github.com/Dozzergeeky/modern-portfolio/blob/master/public)
 
 Here you'll find all the CSS, images, and font files.
 
