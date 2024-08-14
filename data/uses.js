@@ -3,14 +3,14 @@ const categories = [
     name: 'Desk',
     items: [
       {
-        title: 'Custom PC (Gaming)',
+        title: 'Custom PC (Building)',
         description:
           'Specs: AMD Ryzen 9 5900X, AMD Radeon RX 6650 with 32 GB DDR4.',
       },
       {
-        title: 'MacBook Pro (14", 2023)',
+        title: 'MacBook Pro (14", 2023)(Wishlisted)',
         description:
-          'The M3 chip is just amazing. Plus, 16 GB RAM and 1TB storage.',
+          'The M3 chip is just amazing. Plus, 16 GB RAM and 1TB SSD.',
         url: 'https://amzn.to/3pVZUNz',
       },
       {
@@ -114,11 +114,6 @@ const categories = [
     name: 'Apps',
     items: [
       {
-        title: '1Password',
-        description: 'The first thing I install on any new device.',
-        url: 'https://1password.com',
-      },
-      {
         title: 'Windows PowerToys',
         description:
           'I use this to add more useful functions my Windows experience.',
@@ -137,20 +132,15 @@ const categories = [
         url: 'https://grammarly.com/',
       },
       {
-        title: 'Linear',
-        description: 'A totally gorgeous issue tracker. Jira no more.',
-        url: 'https://linear.app/',
-      },
-      {
         title: 'Notion',
         description: 'My personal OS with all the notes from all my projects.',
         url: 'https://www.notion.so/',
       },
       {
-        title: 'Things',
+        title: 'Google Calendar',
         description:
-          'My current choice for to-do lists and organizing personal tasks.',
-        url: 'https://culturedcode.com/things/',
+          'I use this to schedule my day and keep track of all my meetings.',
+        url: 'https://calendar.google.com/',
       },
     ],
   },
