@@ -17,9 +17,9 @@ export async function getStaticProps() {
   const meta = {
     title: 'About // Zeno Rocha',
     description:
-      "Zeno Rocha is a Brazilian creator and programmer. He currently lives in San Francisco, California, where he's the Founder & CEO at Resend. His lifelong appreciation for building software and sharing knowledge led him to speak in over 110 conferences worldwide. His passion for open source put him on the top 20 most active users on GitHub at age 22. Before moving to the US, Zeno developed multiple applications, mentored startups, and worked at major companies in Latin America, such as Globo and Petrobras.",
-    tagline: 'Create. Share. Repeat.',
-    image: '/static/images/about-bw.jpg',
+      "Debargha Bhattacharjee is a Indian programmer. He lives in Kolkata,India where he's a Final Year Student at NSEC. His lifelong appreciation for building software and sharing knowledge led him to persue CSE as his career. His passion for open source put him over 400 GitHub contributions age 21. He also is a DSA and MERN Mentor at Codefeast. His enthusiasm for problem solving have made him solve over 350 Questions across all  platforms. He's also a Marvel fan and loves to read comics.",
+    tagline: 'Dozzer Geeky',
+    image: '/static/images/avatar.jpg',
     primaryColor: 'pink',
     secondaryColor: 'purple',
   }
@@ -56,21 +56,19 @@ function About(props) {
               '@bp2': { marginTop: '-6px' },
             }}
           >
-            <strong>Hey, I'm Zeno Rocha</strong>
-            <Pronunciation />
-            I started as a software engineer back in 2009, working with Flash.
+            <strong>Hey, I'm Debargha Bhattacharjee</strong>
+            <Pronunciation />I started coding back in 2014, doing HTML5 in
+            school.
           </Paragraph>
           <Paragraph>
-            I'm the <strong>Founder & CEO</strong> at
-            Resend. Before that, I was a VP of Developer Experience at WorkOS and CPO at Liferay Cloud. I'm originally
-            from Brazil and now living in{' '}
-            <strong>San Francisco, California</strong> with my amazing wife and
-            beautiful daughter.
+            I'm the <strong>Final Year CSE Undergrad</strong> at NSEC. Before
+            that, I studied at South Point High School. I'm from and stil living
+            in living in <strong>Kolkata,India</strong> with my amazing family.
           </Paragraph>
           <Paragraph>
-            <strong>I love dark mode</strong>, open source, and side projects.
-            When I'm not working, I like running, watching movies, and{' '}
-            <strong>eating cheese</strong>.
+            <strong>I love dark mode</strong>, Marvel, and other geeky stuff.
+            When I'm not working, I like reading comics, binging marvel movies,
+            and <strong>drinking Coke</strong>.
           </Paragraph>
         </Section>
       </Container>
@@ -78,13 +76,17 @@ function About(props) {
   }
 
   const renderBio = () => {
-    const btnStyle = { display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }
+    const btnStyle = {
+      display: 'inline-flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+    }
     const iconStyle = { width: 24, height: 24, marginRight: 8 }
 
     return (
       <div>
         <p>
-          This is made for journalists, podcast hosts, and event organizers to
+          This is made for anyone who want a good Bio about me to
           copy-and-paste.
         </p>
         <blockquote>
@@ -98,7 +100,13 @@ function About(props) {
             onMouseEnter={() => copyBioRef.current?.play()}
             onMouseLeave={() => copyBioRef.current?.stop()}
           >
-            <Lottie lottieRef={copyBioRef} style={iconStyle} animationData={copyBioIcon} loop={false} autoplay={false} />
+            <Lottie
+              lottieRef={copyBioRef}
+              style={iconStyle}
+              animationData={copyBioIcon}
+              loop={false}
+              autoplay={false}
+            />
             Copy Bio
           </ButtonPrimary>
           <span style={{ margin: '0 20px 0 10px' }}>•</span>
@@ -112,7 +120,13 @@ function About(props) {
             onMouseEnter={() => downloadRef.current?.play()}
             onMouseLeave={() => downloadRef.current?.stop()}
           >
-            <Lottie lottieRef={downloadRef} style={iconStyle} animationData={downloadIcon} loop={false} autoplay={false} />
+            <Lottie
+              lottieRef={downloadRef}
+              style={iconStyle}
+              animationData={downloadIcon}
+              loop={false}
+              autoplay={false}
+            />
             Download Headshot
           </ButtonPrimary>
         </ButtonsContainer>
