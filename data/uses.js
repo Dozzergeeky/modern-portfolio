@@ -40,10 +40,10 @@ const categories = [
         url: 'https://www.duckychannel.com.tw/en/One3-TKL-Cosmic-Blue',
       },
       {
-        title: 'Keychron K6',
+        title: 'Keychron K8',
         description:
-          'My preferred wireless keyboard with a 65% compact layout.',
-        url: 'https://amzn.to/3bvnYOW',
+          'My preferred wireless keyboard with a 80% compact layout.',
+        url: 'https://keychron.in/product/keychron-k8-wireless-mechanical-keyboard/',
       },
       {
         title: 'Drop Ctrl',

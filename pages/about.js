@@ -61,9 +61,9 @@ function About(props) {
             school.
           </Paragraph>
           <Paragraph>
-            I'm the <strong>Final Year CSE Undergrad</strong> at NSEC. Before
+            I'm a <strong>Final Year CSE Undergrad</strong> at NSEC. Before
             that, I studied at South Point High School. I'm from and stil living
-            in living in <strong>Kolkata,India</strong> with my amazing family.
+            in <strong>Kolkata,India</strong> with my amazing family.
           </Paragraph>
           <Paragraph>
             <strong>I love dark mode</strong>, Marvel, and other geeky stuff.
