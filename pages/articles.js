@@ -89,7 +89,7 @@ function Articles(props) {
       <AnimateSharedLayout>
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
-        <h2>Featured Articles</h2>
+        <h2>Recent Reads</h2>
         <FeaturedArticles>{renderFeatured()}</FeaturedArticles>
 
         <h2>All Articles</h2>

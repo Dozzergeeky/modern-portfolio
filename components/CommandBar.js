@@ -174,23 +174,6 @@ export default function CommandBar(props) {
       ),
     },
     {
-      id: 'podcasts',
-      name: 'Podcasts',
-      shortcut: ['g', 'c'],
-      keywords: 'go-podcasts',
-      section: 'Go To',
-      perform: () => router.push('/podcasts'),
-      icon: (
-        <Lottie
-          lottieRef={podcastsRef}
-          style={iconSize}
-          animationData={podcastsIcon}
-          loop={false}
-          autoplay={false}
-        />
-      ),
-    },
-    {
       id: 'uses',
       name: 'Uses',
       shortcut: ['g', 'u'],

@@ -11,7 +11,6 @@ export default function Navbar() {
     'About',
     'Articles',
     'Projects',
-    'Podcasts',
     'Uses',
     'Reminder',
   ]
