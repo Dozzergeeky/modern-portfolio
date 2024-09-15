@@ -1,7 +1,7 @@
 ---
 title: UI Libraries and Frameworks 
 description: "There has been a recent trend of UI libraries. So here is a list of the someof my most favourite UI libraries to use with your framework."
-image: /static/img/posts/ui.jpg
+image: https://ik.imagekit.io/ably/ghost/prod/2023/11/best-react-component-libraries.png?tr=w-1728,q-50
 date: "2024-08-04"
 ---
 ## 5 Trending UI Component Libraries That Will Boost Your Web Design in 2024
@@ -30,7 +30,8 @@ My top 5 UI libraries for 2024 are:
 [**Eldora UI**](https://eldoraui.site/) is a popular and modern UI library that offers a variety of features, including pre-built components, theming options, and accessibility features. Eldora UI is highly customizable and offers a wide range of components, such as buttons, forms, and modals. Eldora UI is also optimized for accessibility and offers a variety of features, such as keyboard navigation and screen reader support. Eldora UI is perfect for developers who want to create beautiful and functional websites quickly and easily. It is also very easy to integrate with React and other popular frameworks.
 
 <figure>
-  <img src="https://media.dev.to/cdn-cgi/image/width=1280,height=720,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8gl1q6zprvjud6yich92.png" alt="Eldora UI ">
+  <img src="https://ph-files.imgix.net/a2973b26-4ed4-40c4-83a2-014a1e15929d.png?auto=format&fit=crop" class="post-image-full"
+  alt="Eldora UI ">
 </figure>
 
 ## Rive App
@@ -38,15 +39,18 @@ My top 5 UI libraries for 2024 are:
 [**Rive App**](https://rive.app/) is a new UI library gaming like 3D models and animations. It pro,ises With Rive, complex designer-developer handoff is a thing of the past redcing development times by empowering designers to build functional graphics with rich interactivity and animation.It is perfect for those who want to create stunning websites with 3D models and animations. Rive App offers a wide range of components, including 3D models, animations, and interactive elements. Rive App is also optimized for performance and offers a variety of features, such as lazy loading and code splitting. Rive App is perfect for developers who want to create immersive and engaging websites quickly and easily.
   
 <figure>
-  <img src="https://framerusercontent.com/images/b3VPpHHxFkO2t86aZ0sicjlUM.webp" alt="IKEA Chair">
+  <img src="https://framerusercontent.com/images/b3VPpHHxFkO2t86aZ0sicjlUM.webp"
+  class="post-image-full" alt="IKEA Chair">
 </figure>
 
 ## Tailwind UI
 
-  [**Tailwind UI**](https://tailwindui.com/) is a popular utility-first CSS framework and is used in most of the previously mentioned frameworks offering a variety of features, including pre-built components, theming options, and accessibility features. Tailwind CSS is highly customizable and offers a wide range of components, such as buttons, forms, and modals. Tailwind CSS is also optimized for accessibility and offers a variety of features, such as keyboard navigation and screen reader support. Tailwind CSS is perfect for developers who want to create beautiful and functional websites quickly and easily. It is also very easy to integrate with React and other popular frameworks.
+  [**Tailwind UI**](https://tailwindui.com/) is a premium UI library from the creator of the popular utility-first CSS framework and is used in most of the previously mentioned frameworks offering a variety of features, including pre-built components, theming options, and accessibility features. Tailwind UI is highly customizable and offers a wide range of components, such as buttons, forms, and modals. Tailwind CSS is also optimized for accessibility and offers a variety of features, such as keyboard navigation and screen reader support. Tailwind UI is perfect for developers who want to create beautiful and functional websites quickly and easily. It is also very easy to integrate with React and other popular frameworks.
 
 <figure>
-  <img src="https://d1etqblq65l80m.cloudfront.net/ym3xrzrse7rxancmclomsqzrhpi0 " alt="IKEA Chair">
+  <img src="https://d1etqblq65l80m.cloudfront.net/ym3xrzrse7rxancmclomsqzrhpi0 " 
+  class="post-image-full"
+  alt="IKEA Chair">
 </figure>
 
 These are just a few of the many great UI libraries available in 2024. By using one of these libraries, you can save time and effort while creating beautiful and functional websites.
