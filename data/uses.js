@@ -8,9 +8,9 @@ const categories = [
           'Specs: AMD Ryzen 9 5900X, AMD Radeon RX 6650 with 32 GB DDR4.',
       },
       {
-        title: 'MacBook Pro (14", 2023)(Wishlisted)',
+        title: 'MacBook Air M2 (13", 2023)',
         description:
-          'The M3 chip is just amazing. Plus, 16 GB RAM and 1TB SSD.',
+          'The M2 chip is just amazing. But, 8 GB RAM and slow 256GB SSD.',
         url: 'https://amzn.to/3pVZUNz',
       },
       {

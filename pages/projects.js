@@ -69,7 +69,7 @@ function Projects(props) {
   }
 
   const { title, image } = props
-  const description = `I'm obsessed with side projects and <strong>building in public</strong>. Here you can navigate to websites, apps, and libraries I built and use.`
+  const description = `I'm obsessed with side projects and <strong>building in public</strong>. Here you can navigate to websites, apps, and libraries I built/contributed to and use all the time.`
 
   return (
     <>
