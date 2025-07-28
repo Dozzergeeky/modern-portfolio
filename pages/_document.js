@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { getCssText } from '../stitches.config'
 import { GA_TRACKING_ID } from '../lib/gtag'
 
-export default class extends Document {
+export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx)
     return { ...initialProps }
@@ -31,6 +31,26 @@ export default class extends Document {
             sizes="any"
             type="image/svg+xml"
           />
+          <link rel="icon" href="/favicon.ico" />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+          />
+          <link rel="manifest" href="/site.webmanifest" />
+          <meta name="theme-color" content="#ffffff" />
 
           <script
             async
@@ -47,8 +67,10 @@ export default class extends Document {
             }}
           />
         </Head>
-        <Main />
-        <NextScript />
+        <body>
+          <Main />
+          <NextScript />
+        </body>
       </Html>
     )
   }
