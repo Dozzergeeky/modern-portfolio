@@ -21,7 +21,15 @@ export default function Navbar() {
     <AnimateSharedLayout>
       <Header>
         <Link href="/" passHref>
-          <ButtonLogo as="a">z</ButtonLogo>
+          <ButtonLogo as="a" aria-label="Homepage">
+            <img
+              src="/favicon.svg"
+              alt="Dozzer Geeky Logo"
+              style={{ width: 36, height: 36, display: 'block' }}
+              width={36}
+              height={36}
+            />
+          </ButtonLogo>
         </Link>
 
         <Nav>
