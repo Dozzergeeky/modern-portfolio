@@ -156,4 +156,4 @@ Fonts, just like themes, are a very personal subject. Different developers like 
 
 Hopefully, this compilation was useful to identify what works best for you. Give it a shot, try them for a couple of days, and you'll notice the difference.
 
-I'd love to hear which one you like the most. Hit me up on [Twitter](https://twitter.com/zenorocha)!
+I'd love to hear which one you like the most. Hit me up on [Twitter](https://twitter.com/dozzer)!

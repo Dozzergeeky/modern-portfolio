@@ -7,7 +7,7 @@ date: "2015-01-04"
 
 I love this part of the year, after all a new year is a new beginning, right?
 
-It's now a tradition: every year I try to list the things I've done ([2011](https://zenorocha.com/entao-e-natal-e-ano-novo-tambem/), [2012](https://zenorocha.com/my-way/), [2013](https://zenorocha.com/o-que-eu-espero-para-2014/)), this is a reminder to identify what decisions worked well and what was a disaster. For me, it's also the time to ask myself: "Where do I wanna get in my career?" and after some thought into that comes the second question: "What am I doing right now to achieve that?"
+It's now a tradition: every year I try to list the things I've done ([2011](https://dozzer.tech/entao-e-natal-e-ano-novo-tambem/), [2012](https://dozzer.tech/my-way/), [2013](https://dozzer.tech/o-que-eu-espero-para-2014/)), this is a reminder to identify what decisions worked well and what was a disaster. For me, it's also the time to ask myself: "Where do I wanna get in my career?" and after some thought into that comes the second question: "What am I doing right now to achieve that?"
 
 <!-- more -->
 
@@ -23,7 +23,7 @@ It's now a tradition: every year I try to list the things I've done ([2011](http
 
 A very important part of my job (and probably the one I most love to do) is to travel and talk to developers. I'm not gonna lie to you, standing in front of hundreds of people is still pretty scary but the feeling you get after a talk is so rewarding that you just can't stop doing it.
 
-I've been trying more to measure the impact of everything I do. One important addition to the _always-up-to-date_ list of presentations found at [zenorocha.com/talks](https://zenorocha.com/talks) is the approximate number of attendees for each event. I'm also gathering social media feedbacks using [Storify](http://storify.com/zenorocha/), that way all your lovely post-talk tweets will be saved for my future kids to see.
+I've been trying more to measure the impact of everything I do. One important addition to the _always-up-to-date_ list of presentations found at [dozzer.tech/talks](https://dozzer.tech/talks) is the approximate number of attendees for each event. I'm also gathering social media feedbacks using [Storify](http://storify.com/dozzer/), that way all your lovely post-talk tweets will be saved for my future kids to see.
 
 ### Highlights
 
@@ -54,7 +54,7 @@ Along the years I started to write more in other blogs than in my own site. I li
 
 ### Highlights
 
-My favorite blogpost this year was written in Portuguese and is called ["Ser popular é uma merda"](https://medium.com/@zenorocha/ser-popular-e-uma-merda-b739836e4407). It was something that I had to get off my chest about how being popular sucks, however even with all the exposure and bad judgment that people make about you it still worth it somehow.
+My favorite blogpost this year was written in Portuguese and is called ["Ser popular é uma merda"](https://medium.com/@dozzer/ser-popular-e-uma-merda-b739836e4407). It was something that I had to get off my chest about how being popular sucks, however even with all the exposure and bad judgment that people make about you it still worth it somehow.
 
 ![Post: Ser popular é uma merda](/static/img/posts/stats-2014-post-highlight.png)
 
@@ -98,7 +98,7 @@ Thank you so much for all of you wearing our t-shirts and showing our stickers i
 
 <h2 style="text-align: center;" id="2014-projects">Projects</h2>
 
-I'm really afraid of becoming those kind of people that only talks but don't do anything. That's why I try to keep my [GitHub profile](https://github.com/zenorocha) pretty active by contributing to many different projects.
+I'm really afraid of becoming those kind of people that only talks but don't do anything. That's why I try to keep my [GitHub profile](https://github.com/dozzer) pretty active by contributing to many different projects.
 
 One of the things I liked about last year was that I got more in contact with organizations that I'm a big fan of such as [HTML5 Boilerplate](https://github.com/h5bp) and [Yeoman](https://github.com/yeoman). There's a lot to learn from every single person in those orgs.
 
@@ -157,6 +157,6 @@ I don't always record screencasts but when I do I try to do as polished as possi
 
 <h2 style="text-align: center;">What's next?</h2>
 
-[Hard work](https://twitter.com/zenorocha/status/502005181161410561).
+[Hard work](https://twitter.com/dozzer/status/502005181161410561).
 
 2014 was amazing and I'm sure 2015 will bring even more exciting stuff. Thank you for reading and being a part of all this.

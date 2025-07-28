@@ -15,7 +15,7 @@ import downloadIcon from '../public/static/icons/download.json'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'About // Zeno Rocha',
+    title: 'About // Dozzer Geeky',
     description:
       "Debargha Bhattacharjee is a Indian programmer. He lives in Kolkata,India where he's a Final Year Student at NSEC. His lifelong appreciation for building software and sharing knowledge led him to persue CSE as his career. His passion for open source put him over 600+ GitHub contributions age 21. He also is a DSA and MERN Mentor at Codefeast. His enthusiasm for problem solving have made him solve over 350+ Questions across all  platforms. He's also a Marvel fan and loves to read comics.",
     tagline: 'Dozzer Geeky',
@@ -202,8 +202,8 @@ function About(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/about" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://dozzer.tech/about" property="og:url" />
+        <meta content={`https://dozzer.tech${image}`} property="og:image" />
       </Head>
 
       {renderIntro()}

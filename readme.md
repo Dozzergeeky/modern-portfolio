@@ -2,7 +2,7 @@
 
 > My personal portfolio website modernized 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fzenorocha%2Fzenorocha.com)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FDozzergeeky%2Fmodern-portfolio)
 
 ## Technology stack
 
@@ -18,7 +18,7 @@
 1. Clone this repo:
 
 ```sh
-$ git clone https://github.com/zenorocha/modern-portfolio.git
+$ git clone https://github.com/Dozzergeeky/modern-portfolio.git
 ```
 
 2. Then go to the project's folder:
@@ -84,4 +84,4 @@ Here you'll find all the CSS, images, and font files.
 
 ## License
 
-[MIT License](http://zenorocha.mit-license.org/) © Zeno Rocha
+[MIT License](http://dozzer.mit-license.org/) © Dozzer

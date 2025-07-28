@@ -23,7 +23,7 @@ In fact, it's pretty hard for me to write down that sentence 'cause I don't know
 - **March**, moved to US for good. A plan I had for a very long time finally became true.
 - **April**, rented and furnished my entire home for the first time. Thanks IKEA <3
 - **June**, bought my first car. I never liked cars but it's impossible to not have one in LA.
-- **November**, [got a dog](https://twitter.com/zenorocha/status/662673751373287424). Which makes me think: "How could I lived without one for such a long time?".
+- **November**, [got a dog](https://twitter.com/dozzer/status/662673751373287424). Which makes me think: "How could I lived without one for such a long time?".
 
 These achievements were huge and probably the most important things that happened to me this year. You can even stop reading here, everything described below are just minor stuff ;)
 
@@ -51,13 +51,13 @@ And the most challenging event was a 40-hour workshop I gave at Fresno's City Co
 
 <h2 style="text-align: center;" id="2015-blogposts">Blogposts</h2>
 
-2015 was the year of [Medium](https://medium.com/@zenorocha) for me. Pretty much everything that I wrote was published there. I'm in love with their platform and I don't think this is going to change very soon.
+2015 was the year of [Medium](https://medium.com/@dozzer) for me. Pretty much everything that I wrote was published there. I'm in love with their platform and I don't think this is going to change very soon.
 
 ### Highlights
 
-Surprisingly enough, the most impactful piece of text I wrote this year was not in any blog. It was on a [GitHub](https://github.com/zenorocha/clipboard.js/issues/56#issuecomment-144936509) issue. In the end I replicated that text on Medium as ["How did clipboard.js get 5000 stars in a few days?"](https://medium.com/@zenorocha/how-did-clipboard-js-get-5000-stars-in-a-few-days-2b2248ba7bd8).
+Surprisingly enough, the most impactful piece of text I wrote this year was not in any blog. It was on a [GitHub](https://github.com/dozzer/clipboard.js/issues/56#issuecomment-144936509) issue. In the end I replicated that text on Medium as ["How did clipboard.js get 5000 stars in a few days?"](https://medium.com/@dozzer/how-did-clipboard-js-get-5000-stars-in-a-few-days-2b2248ba7bd8).
 
-However, my favorite one was written couple weeks ago, just before New Year's. It's called ["What are you waiting for?"](https://medium.com/@zenorocha/what-are-you-waiting-for-46037938837a) and took me months to put that thought on paper.
+However, my favorite one was written couple weeks ago, just before New Year's. It's called ["What are you waiting for?"](https://medium.com/@dozzer/what-are-you-waiting-for-46037938837a) and took me months to put that thought on paper.
 
 ![Zeno in Yosemite](/static/img/posts/2015-post.jpg)
 
@@ -84,11 +84,11 @@ Super proud of what we accomplished not only in terms of UI but also in terms of
 
 **[Clipboard.js](http://clipboardjs.com)**, launched in September.
 
-By far the most popular project I made this year. Widely praised and adopted by huge players like Bootstrap 4. _[Read more about this launch](https://medium.com/@zenorocha/how-did-clipboard-js-get-5000-stars-in-a-few-days-2b2248ba7bd8#.jvdey5bpu)._
+By far the most popular project I made this year. Widely praised and adopted by huge players like Bootstrap 4. _[Read more about this launch](https://medium.com/@dozzer/how-did-clipboard-js-get-5000-stars-in-a-few-days-2b2248ba7bd8#.jvdey5bpu)._
 
 ![Logo: clipboardjs.com](/static/img/posts/2015-clipboard.jpg)
 
-**[Dracula Theme](http://zenorocha.github.io/dracula-theme/)**, redesigned in October.
+**[Dracula Theme](http://dozzer.github.io/dracula-theme/)**, redesigned in October.
 
 A little piece built during Halloween.
 
@@ -97,11 +97,11 @@ A little piece built during Halloween.
 ### Stats
 
 - [CustomElements.io](https://github.com/customelements/www): **657** stars on GitHub
-- [Clipboard.js](https://github.com/zenorocha/clipboard.js): **10,319** stars on GitHub
-- [Dracula Theme](https://github.com/zenorocha/dracula-theme/): **1,510** stars on GitHub
+- [Clipboard.js](https://github.com/dozzer/clipboard.js): **10,319** stars on GitHub
+- [Dracula Theme](https://github.com/dozzer/dracula-theme/): **1,510** stars on GitHub
 
 <h2 style="text-align: center;">What's next?</h2>
 
-Same as last year: [hard work](https://twitter.com/zenorocha/status/502005181161410561).
+Same as last year: [hard work](https://twitter.com/dozzer/status/502005181161410561).
 
 I have defined some OKRs for 2016 but those I keep in secret :P All I can tell is that 2015 was incredible and I'm sure 2016 will bring even more exciting stuff. Thank you for reading and being a part of this.

@@ -17,6 +17,6 @@ São pessoas da comunidade de desenvolvedores com ampla e reconhecida capacidade
 
 Na prática, GDEs são pessoas que se tornam referência na comunidade: escrevem código open-source, compartilham conhecimento através de blogs, escrevem para revistas e sites especializados e palestram em eventos relevantes. Os GDEs são divididos por áreas, como por exemplo Android, Chrome/HTML5, Google+ e Dart.
 
-Zeno, nosso primeiro GDE brasileiro, escreve sobre HTML5 para diversos blogs, participa do podcast [Zone of Front-enders](http://zofe.com.br/), palestra em dezenas de eventos globais e é co-fundador da [BrazilJS Foundation](http://braziljs.org/). Sua [conta no GitHub](https://github.com/zenorocha) registra dezenas de projetos e contribuições open-source.
+Zeno, nosso primeiro GDE brasileiro, escreve sobre HTML5 para diversos blogs, participa do podcast [Zone of Front-enders](http://zofe.com.br/), palestra em dezenas de eventos globais e é co-fundador da [BrazilJS Foundation](http://braziljs.org/). Sua [conta no GitHub](https://github.com/dozzer) registra dezenas de projetos e contribuições open-source.
 
 Apoiamos os GDEs com a certeza que essa dedicação e paixão continue inspirando outros desenvolvedores. É com esse espírito que damos boas-vindas ao Zeno como representante da comunidade Chrome/HTML5 no programa Google Developers Experts!

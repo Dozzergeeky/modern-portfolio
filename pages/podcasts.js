@@ -8,7 +8,7 @@ import { AnimateSharedLayout } from 'framer-motion'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Podcasts // Zeno Rocha',
+    title: 'Podcasts // Dozzer Geeky',
     tagline: 'Ideas. Thoughts. Opinions.',
     image: '/static/images/podcasts-bw.jpg',
     primaryColor: 'pink',
@@ -56,7 +56,7 @@ function Podcasts(props) {
   }
 
   const { title, image } = props
-  const description = `Audio is a powerful medium and a great way to <strong>develop ideas</strong>. Whenever possible I try to listen to podcasts to <strong>learn from new people</strong> and <strong>get inspired</strong> listing some them below.`
+  const description = `Audio is a powerful medium and a great way to <strong>debate ideas</strong>. Whenever possible I try to share my story as a guest or <strong>meet new people</strong> by hosting my own podcast called ByteTalk.`
 
   return (
     <>
@@ -65,28 +65,32 @@ function Podcasts(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/podcasts" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://dozzer.tech/podcasts" property="og:url" />
+        <meta content={`https://dozzer.tech${image}`} property="og:image" />
       </Head>
 
       <AnimateSharedLayout>
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
-        <h2>Currently Listening</h2>
+        <h2>Featured Podcasts</h2>
         <ListGroup>{renderFeatured(appearances)}</ListGroup>
 
-        <h2>Best Listens</h2>
+        <h2>Appearances</h2>
+        <ListGroup>{renderEpisode(appearances)}</ListGroup>
+
+        <h2>ByteTalk</h2>
         <p>
           A podcast where Jonni and I interview the most productive people in
           tech.
         </p>
         <ListGroup>{renderEpisode(bytetalk)}</ListGroup>
 
-        <h2>Honorable Mentions</h2>
+        <h2>Zone Of Front-Enders</h2>
         <p>
-          This is the list of all the podcasts that I gave an interview so far.
+          My first podcast, ZOFE, where Daniel and I talked about web
+          technologies.
         </p>
-        <ListGroup>{renderEpisode(appearances)}</ListGroup>
+        <ListGroup>{renderEpisode(zofe)}</ListGroup>
       </AnimateSharedLayout>
     </>
   )

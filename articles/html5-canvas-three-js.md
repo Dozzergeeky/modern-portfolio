@@ -7,7 +7,7 @@ lang: pt-BR
 date: "2011-08-14"
 ---
 
-<!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/canvas/" target="_blank"><img src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png" class="botao"/></a> <a href="https://github.com/zenorocha/HTML5-Canvas" target="_blank"><img src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png" class="botao"/></a> -->
+<!-- <p class="demo-download"><a href="http://labs.dozzer.tech/html5/canvas/" target="_blank"><img src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png" class="botao"/></a> <a href="https://github.com/dozzer/HTML5-Canvas" target="_blank"><img src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png" class="botao"/></a> -->
 
 Ahh o tão badalado canvas. Sempre um dos tópicos mais abordados quando o assunto é HTML5. Você já deve ter ouvido muito falar dele e, assim como eu, ter se impressionado com os [diversos experimentos](http://www.canvasdemos.com/) que surgem todos os dias pela internet.
 
@@ -37,7 +37,7 @@ Depois de procurar e não encontrar absolutamente nenhum material em português 
 
 ## Exemplo
 
-Para que esse post não fique gigante, apenas trechos de código serão exibidos a seguir, portanto se estiver com alguma dúvida dê uma olhada no meu [repositório do github que contém o código completo](https://github.com/zenorocha/HTML5-Canvas).
+Para que esse post não fique gigante, apenas trechos de código serão exibidos a seguir, portanto se estiver com alguma dúvida dê uma olhada no meu [repositório do github que contém o código completo](https://github.com/dozzer/HTML5-Canvas).
 
 O exemplo será bem simples, criar um cubo e interagir com ele. Tudo isso, é claro, utilizando apenas Javascript.
 
@@ -99,7 +99,7 @@ Por fim, definimos que o container estará escutando pelo evento de quando o mou
 container.addEventListener('mousedown', onMouseDown, false);
 ```
 
-E agora paramos por aqui antes que esse post fique enorme, se você quiser saber mais sobre o resto das funções é só acessar o [repositório do github que contém o código completo](https://github.com/zenorocha/HTML5-Canvas).
+E agora paramos por aqui antes que esse post fique enorme, se você quiser saber mais sobre o resto das funções é só acessar o [repositório do github que contém o código completo](https://github.com/dozzer/HTML5-Canvas).
 
 ## Compatibilidade
 

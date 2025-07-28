@@ -11,7 +11,7 @@ _Originally published in [The Web Platform Podcast](http://thewebplatform.libsyn
 
 Web Components are a set of emerging and rapidly changing technologies
 alter the way many developers are starting to build web applications.
-[Zeno Rocha](https://twitter.com/zenorocha), a dominant force in the front end
+[Zeno Rocha](https://twitter.com/dozzer), a dominant force in the front end
 development community talks with hosts [Erik Isaksen](https://twitter.com/eisaksen)
 & [Christian Smith](https://twitter.com/anvilhacks) on how developers can get
 started building with these technologies today & how to build their own

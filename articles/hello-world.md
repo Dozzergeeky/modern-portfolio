@@ -19,7 +19,7 @@ Na hora tentaram me convencer a entrar na aposta também, mas é claro que rejei
 
 Uma semana depois, durante a aula vejo o seguinte tweet:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="pt" dir="ltr"><a href="https://twitter.com/pedromarins">@pedromarins</a> <a href="https://twitter.com/Nighto">@Nighto</a> <a href="https://twitter.com/TiagoVeloso">@TiagoVeloso</a> <a href="https://twitter.com/4rrud4">@4rrud4</a> Temos que convencer o <a href="https://twitter.com/zenorocha">@zenorocha</a> a entrar agora</p>&mdash; Victor Fontes Costa (@victorfontes) <a href="https://twitter.com/victorfontes/status/57587464906342401">April 11, 2011</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="pt" dir="ltr"><a href="https://twitter.com/pedromarins">@pedromarins</a> <a href="https://twitter.com/Nighto">@Nighto</a> <a href="https://twitter.com/TiagoVeloso">@TiagoVeloso</a> <a href="https://twitter.com/4rrud4">@4rrud4</a> Temos que convencer o <a href="https://twitter.com/dozzer">@dozzer</a> a entrar agora</p>&mdash; Victor Fontes Costa (@victorfontes) <a href="https://twitter.com/victorfontes/status/57587464906342401">April 11, 2011</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Na hora, fiquei entre naquele difícil dilema: Assisto aula ou começo a desenvolver um agora mesmo?

@@ -80,6 +80,6 @@ For the WorkOS users, whether you prefer your screen bright or if you want to fe
 
 Enjoy the dark side! 🖤
 
-*If you liked this post, you can [try WorkOS in dark mode here](https://dashboard.workos.com/signup?utm_source=blog&utm_medium=blog+post&utm_campaign=launch-hdmof). If you also want to spend your time working on creating great developer experiences, [we are hiring](https://jobs.lever.co/workos). If you ever want to talk about developer experience (or dark mode), please [tweet or DM me](https://twitter.com/zenorocha/)!*
+*If you liked this post, you can [try WorkOS in dark mode here](https://dashboard.workos.com/signup?utm_source=blog&utm_medium=blog+post&utm_campaign=launch-hdmof). If you also want to spend your time working on creating great developer experiences, [we are hiring](https://jobs.lever.co/workos). If you ever want to talk about developer experience (or dark mode), please [tweet or DM me](https://twitter.com/dozzer/)!*
 
 _Originally published in the [WorkOS Blog](https://workos.com/blog/5-lessons-we-learned-adding-dark-mode-to-our-platform)_
