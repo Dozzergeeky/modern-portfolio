@@ -21,21 +21,21 @@ I wanted to try some fancy JavaScript techniques, so I had some data stored as J
 
 What I loved about this site was the simplicity. There was no navigation, only external links. On a single page, you could see everything. Also, that illustration was so fun!
 
-*[View source code →](https://github.com/zenorocha/zenorocha.com/tree/v1)*
+*[View source code →](https://github.com/dozzer/dozzer.tech/tree/v1)*
 
-<img alt="zenorocha.com V1 screenshot" src="/static/img/posts/how-i-built-my-personal-website-2012.jpg" class="post-image-full">
+<img alt="dozzer.tech V1 screenshot" src="/static/img/posts/how-i-built-my-personal-website-2012.jpg" class="post-image-full">
 
 ## Version 2 (2013 - 2015)
 
-Apart from this site, I also had a blog that was hosted on [Tumblr](https://www.tumblr.com/) and that was served with the `blog.zenorocha.com` domain.
+Apart from this site, I also had a blog that was hosted on [Tumblr](https://www.tumblr.com/) and that was served with the `blog.dozzer.tech` domain.
 
 Once I started writing more posts, I felt the need to unify my portfolio with my blog. That's when I started using [Jekyll](https://jekyllrb.com/). This was my first exposure to [Ruby](https://www.ruby-lang.org/en/) and [YAML](https://yaml.org/), which was really exciting. The posts were written in [Markdown](https://daringfireball.net/projects/markdown/). The layout was built using the [Liquid](https://shopify.github.io/liquid/) templating language.
 
 I remember using this JavaScript library called [Fokus](https://lab.hakim.se/fokus/) to impress people when they selected a paragraph. To automate the linting process, I used a task runner called [Grunt](https://gruntjs.com/). For hosting, I used [GitHub Pages](https://pages.github.com/) which was giving HTTPS certificates for free (that was a big deal back then).
 
-*[View source code →](https://github.com/zenorocha/zenorocha.com/tree/v2)*
+*[View source code →](https://github.com/dozzer/dozzer.tech/tree/v2)*
 
-<img alt="zenorocha.com V2 screenshot" src="/static/img/posts/how-i-built-my-personal-website-2013.jpg" class="post-image-full">
+<img alt="dozzer.tech V2 screenshot" src="/static/img/posts/how-i-built-my-personal-website-2013.jpg" class="post-image-full">
 
 ## Version 3 (2016 - 2020)
 
@@ -47,9 +47,9 @@ I'm super into [dogfooding](https://en.wikipedia.org/wiki/Eating_your_own_dog_fo
 
 In terms of design, a huge inspiration for me was [Medium](https://medium.com/). The reading experience and the way images were displayed were extremely beautiful, so I tried to replicate some of that.
 
-*[View source code →](https://github.com/zenorocha/zenorocha.com/tree/v3)*
+*[View source code →](https://github.com/dozzer/dozzer.tech/tree/v3)*
 
-<img alt="zenorocha.com V3 screenshot" src="/static/img/posts/how-i-built-my-personal-website-2016.jpg" class="post-image-full">
+<img alt="dozzer.tech V3 screenshot" src="/static/img/posts/how-i-built-my-personal-website-2016.jpg" class="post-image-full">
 
 ## Version 4 (2021 - Present)
 
@@ -59,9 +59,9 @@ The UI components are written in [React](https://reactjs.org/), and everything i
 
 The command palette is built using [kbar](https://github.com/timc1/kbar/). The code snippets are highlighted with [Prism](https://prismjs.com/) using a custom set of [Dracula](https://draculatheme.com) colors. The favicons are made with SVG and support both dark and light modes. Finally, all the smooth hover interactions are powered by [Framer Motion](https://www.framer.com/motion/) which I'm absolutely in love with.
 
-*[View source code →](https://github.com/zenorocha/zenorocha.com/tree/master)*
+*[View source code →](https://github.com/dozzer/dozzer.tech/tree/master)*
 
-<img alt="zenorocha.com V4 screenshot" src="/static/img/posts/how-i-built-my-personal-website-2021.jpg" class="post-image-full" style="border: 1px solid rgba(255, 255, 255, .3)">
+<img alt="dozzer.tech V4 screenshot" src="/static/img/posts/how-i-built-my-personal-website-2021.jpg" class="post-image-full" style="border: 1px solid rgba(255, 255, 255, .3)">
 
 ## The end?
 

@@ -44,7 +44,7 @@ date: "2013-03-12"
 
 <h2>Revision</h2>
 
-<p>After much improvement I decided to invite other guys to review, like <a href="https://github.com/marcelduran">Marcel Duran</a> <em>(Twitter)</em>, <a href="https://github.com/miketaylr">Mike Taylor</a> <em>(Opera)</em>, <a href="https://github.com/mangini">Renato Mangini</a> <em>(Google)</em> and <a href="https://github.com/sergiolopes">Sérgio Lopes</a> <em>(Caelum)</em>. Everyone was excited and insanely contributed, including questions related to the code of the website were extremely debated like <a href="https://github.com/zenorocha/browser-diet/issues/40">CSS Sprites vs Lazy Load</a>.</p>
+<p>After much improvement I decided to invite other guys to review, like <a href="https://github.com/marcelduran">Marcel Duran</a> <em>(Twitter)</em>, <a href="https://github.com/miketaylr">Mike Taylor</a> <em>(Opera)</em>, <a href="https://github.com/mangini">Renato Mangini</a> <em>(Google)</em> and <a href="https://github.com/sergiolopes">Sérgio Lopes</a> <em>(Caelum)</em>. Everyone was excited and insanely contributed, including questions related to the code of the website were extremely debated like <a href="https://github.com/dozzer/browser-diet/issues/40">CSS Sprites vs Lazy Load</a>.</p>
 
 <h2>Launch</h2>
 
@@ -54,9 +54,9 @@ date: "2013-03-12"
 
 <p>The final result you can see at: <a href="http://browserdiet.com">browserdiet.com</a>.</p>
 
-<p>Source code, as always, is <a href="https://github.com/zenorocha/browser-diet">available at Github</a>.</p>
+<p>Source code, as always, is <a href="https://github.com/dozzer/browser-diet">available at Github</a>.</p>
 
-<p><em>PS: My <a href="https://speakerdeck.com/zenorocha/como-perder-peso-no-browser/">slides are also online</a> for those who weren't there.</em></p>
+<p><em>PS: My <a href="https://speakerdeck.com/dozzer/como-perder-peso-no-browser/">slides are also online</a> for those who weren't there.</em></p>
 
 <script async class="speakerdeck-embed" data-id="31ed55c06ab8013086e822000a8f982b" data-ratio="1.33333333333333" src="//speakerdeck.com/embed.js"></script>
 
@@ -78,7 +78,7 @@ date: "2013-03-12"
 
 <p><em>Mathias Bynens, Web Developer - Freelance</em></p>
 
-<blockquote class="twitter-tweet" data-conversation="none"><p>@<a href="https://twitter.com/zenorocha">zenorocha</a> @<a href="https://twitter.com/addyosmani">addyosmani</a> awesome project! we need more stuff like this, and more people thinking about it.</p>&mdash; Ilya Grigorik (@igrigorik) <a href="https://twitter.com/igrigorik/status/311303945920339968">March 12, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none"><p>@<a href="https://twitter.com/dozzer">dozzer</a> @<a href="https://twitter.com/addyosmani">addyosmani</a> awesome project! we need more stuff like this, and more people thinking about it.</p>&mdash; Ilya Grigorik (@igrigorik) <a href="https://twitter.com/igrigorik/status/311303945920339968">March 12, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p><em>Ilya Grigorik, Developer Advocate - Google</em></p>

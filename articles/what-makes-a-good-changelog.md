@@ -65,7 +65,7 @@ It’s also important to note the versions. If you're building a library, framew
 
 Usually, a startup would want to avoid putting as much responsibility on the engineers as possible. But, it’s really important to have engineers write the entries for the changelog.
 
-A changelog is an extension of your product, and influences [the product’s usability](https://twitter.com/zenorocha/status/1418571935412199428) the same way docs, SDKs, and demos would. It needs to feel like it was made for your product. If it’s driven by the engineers who built the product, then naturally that process becomes easier.
+A changelog is an extension of your product, and influences [the product’s usability](https://twitter.com/dozzer/status/1418571935412199428) the same way docs, SDKs, and demos would. It needs to feel like it was made for your product. If it’s driven by the engineers who built the product, then naturally that process becomes easier.
 
 ![The Developer Experience Hierarchy of Needs](/static/img/posts/what-makes-a-good-changelog-e.png)
 
@@ -73,8 +73,8 @@ Even if you don’t think your changelog will have many external readers in the 
 
 ### A World with Better Changelogs
 
-If you ever want to learn about what to expect from WorkOS, visit our changelog. It’s where we’ll explain how and why our software changes. If you want more changelog inspiration, [I’ve tweeted about the topic before](https://twitter.com/zenorocha/status/1404500294235410433). Happy logging!
+If you ever want to learn about what to expect from WorkOS, visit our changelog. It’s where we’ll explain how and why our software changes. If you want more changelog inspiration, [I’ve tweeted about the topic before](https://twitter.com/dozzer/status/1404500294235410433). Happy logging!
 
-*If you liked this post, you can [read the WorkOS changelog here](https://workos.com/changelog?utm_source=blog&utm_medium=blog+post&utm_campaign=changelog+post). If you also want to spend your time working on creating great developer experiences, [we are hiring](https://jobs.lever.co/workos). If you ever want to talk about developer experience (or changelogs), please [tweet or DM me](https://twitter.com/zenorocha/)!*
+*If you liked this post, you can [read the WorkOS changelog here](https://workos.com/changelog?utm_source=blog&utm_medium=blog+post&utm_campaign=changelog+post). If you also want to spend your time working on creating great developer experiences, [we are hiring](https://jobs.lever.co/workos). If you ever want to talk about developer experience (or changelogs), please [tweet or DM me](https://twitter.com/dozzer/)!*
 
 _Originally published in the [WorkOS Blog](https://workos.com/blog/what-makes-a-good-changelog)_

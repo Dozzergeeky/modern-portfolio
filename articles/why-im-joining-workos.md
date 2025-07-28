@@ -26,7 +26,7 @@ I replied back, and **an exciting journey was about to start**.
 
 A week later, I tweeted about a topic that I'm fascinated with.
 
-<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Job titles of the future:<br><br>• Developer Experience Designer<br>• Head of Developer Experience<br>• Developer Success Manager</p>&mdash; Zeno Rocha (@zenorocha) <a href="https://twitter.com/zenorocha/status/1385228898032566276?ref_src=twsrc%5Etfw">April 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Job titles of the future:<br><br>• Developer Experience Designer<br>• Head of Developer Experience<br>• Developer Success Manager</p>&mdash; Zeno Rocha (@dozzer) <a href="https://twitter.com/dozzer/status/1385228898032566276?ref_src=twsrc%5Etfw">April 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This tweet got a lot of attention, and I received another DM from Michael. He mentioned they had just hired for bullet points #1 and #3, and wanted to know if I was interested in talking about #2.
 
@@ -77,7 +77,7 @@ When we started Liferay Cloud, we were operating as a small startup and trying o
 
 Back then, [there was no playbook](https://www.enterpriseready.io/) and no set of APIs that could help us. We had to figure out everything on our own. We started building all these features that enterprise IT managers require from you like Single Sign On (SSO), Audit Trail, Role-Based Access Control (RBAC), etc.
 
-<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Developers often underestimate the importance of enterprise features.<br><br>Enterprises often underestimate the importance of developer experience.<br><br>Both are wrong.</p>&mdash; Zeno Rocha (@zenorocha) <a href="https://twitter.com/zenorocha/status/1392476477472468994?ref_src=twsrc%5Etfw">May 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Developers often underestimate the importance of enterprise features.<br><br>Enterprises often underestimate the importance of developer experience.<br><br>Both are wrong.</p>&mdash; Zeno Rocha (@dozzer) <a href="https://twitter.com/dozzer/status/1392476477472468994?ref_src=twsrc%5Etfw">May 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Building these features ourselves was extremely complicated, especially because that was **not a core functionality of our product**. Our goal was to help users be more productive, but instead, we had to implement all these peripheral functionalities for the buyers.
 

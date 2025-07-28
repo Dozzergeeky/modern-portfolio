@@ -8,7 +8,7 @@ import { AnimateSharedLayout } from 'framer-motion'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Podcasts // Zeno Rocha',
+    title: 'Podcasts // Dozzer Geeky',
     tagline: 'Ideas. Thoughts. Opinions.',
     image: '/static/images/podcasts-bw.jpg',
     primaryColor: 'pink',
@@ -65,8 +65,8 @@ function Podcasts(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/podcasts" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://dozzer.tech/podcasts" property="og:url" />
+        <meta content={`https://dozzer.tech${image}`} property="og:image" />
       </Head>
 
       <AnimateSharedLayout>

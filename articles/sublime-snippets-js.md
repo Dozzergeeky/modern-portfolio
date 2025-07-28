@@ -1,6 +1,6 @@
 ---
 title: "JavaScript & NodeJS Snippets for Sublime Text"
-link: "https://github.com/zenorocha/sublime-snippets-js"
+link: "https://github.com/dozzer/sublime-snippets-js"
 slug: sublime-snippets-js
 skip: true
 date: "2013-08-15"

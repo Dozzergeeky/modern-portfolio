@@ -9,7 +9,7 @@ import items from '../data/projects'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Projects // Zeno Rocha',
+    title: 'Projects // Dozzer Geeky',
     tagline: 'Work. Hobby. Open Source.',
     image: '/static/images/projects-bw.jpg',
     primaryColor: 'cyan',
@@ -78,8 +78,8 @@ function Projects(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/projects" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://dozzer.tech/projects" property="og:url" />
+        <meta content={`https://dozzer.tech${image}`} property="og:image" />
       </Head>
 
       <AnimateSharedLayout>

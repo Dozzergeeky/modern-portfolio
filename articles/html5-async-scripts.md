@@ -6,7 +6,7 @@ lang: pt-BR
 date: "2011-09-18"
 ---
 
-<!-- <p class="demo-download"><a href="http://labs.zenorocha.com/html5/script" target="_blank"><img class="botao" src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png"/></a> <a href="https://github.com/zenorocha/HTML5-Script" target="_blank"><img class="botao" src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png"/></a> -->
+<!-- <p class="demo-download"><a href="http://labs.dozzer.tech/html5/script" target="_blank"><img class="botao" src="/static/img/tumblr/tumblr_lk325lvHwF1qe3219.png"/></a> <a href="https://github.com/dozzer/HTML5-Script" target="_blank"><img class="botao" src="/static/img/tumblr/tumblr_lk325u7HMG1qe3219.png"/></a> -->
 
 O volume de mudanças que a [nova especificação do HTML](http://www.w3.org/TR/html5/scripting-1.html#attr-script-async) propõe para tag `<script>` é pequeno, mas chama atenção por resolver antigos problemas de performance.
 
