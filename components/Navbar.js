@@ -1,203 +1,80 @@
-import { styled } from '../stitches.config'
-import { useState } from 'react'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
-import { motion, AnimateSharedLayout } from 'framer-motion'
-import { useKBar } from 'kbar'
+import { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
-export default function Navbar() {
-  const router = useRouter()
-  const pages = [
-    'About',
-    'Articles',
-    'Projects',
-    'Uses',
-    'Reminder',
-  ]
-  const [hovered, setHovered] = useState('')
-  const { query } = useKBar()
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <AnimateSharedLayout>
-      <Header>
-        <Link href="/" passHref>
-          <ButtonLogo as="a" aria-label="Homepage">
-            <img
-              src="/favicon.svg"
-              alt="Dozzer Geeky Logo"
-              style={{ width: 36, height: 36, display: 'block' }}
-              width={36}
-              height={36}
-            />
-          </ButtonLogo>
-        </Link>
+    <nav className="bg-white shadow-lg fixed w-full top-0 z-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between h-16">
+          <div className="flex items-center">
+            <Link href="/">
+              <div className="flex items-center space-x-2 cursor-pointer">
+                <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+                  <span className="text-white font-bold text-lg">D</span>
+                </div>
+                <span className="font-semibold text-lg">Dozzer</span>
+              </div>
+            </Link>
+          </div>
 
-        <Nav>
-          <List>
-            {pages.map(page => {
-              const path = `/${page.toLowerCase()}`
-              const isHovered = hovered === page
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center space-x-8">
+            <Link href="/about" className="text-gray-700 hover:text-blue-600 transition duration-300">
+              About
+            </Link>
+            <Link href="/projects" className="text-gray-700 hover:text-blue-600 transition duration-300">
+              Projects
+            </Link>
+            <Link href="/blog" className="text-gray-700 hover:text-blue-600 transition duration-300">
+              Blog
+            </Link>
+            <Link href="/contact" className="text-gray-700 hover:text-blue-600 transition duration-300">
+              Contact
+            </Link>
+          </div>
 
-              return (
-                <li key={page}>
-                  <Link href={path} passHref>
-                    <Anchor>
-                      <NavContainer
-                        onHoverStart={() => setHovered(page)}
-                        onHoverEnd={() => setHovered('')}
-                        css={
-                          router.pathname == path
-                            ? {
-                                color: '$primary',
-                                '&::after': { opacity: 1 },
-                              }
-                            : ''
-                        }
-                      >
-                        {isHovered && (
-                          <NavHovered
-                            layoutId="nav"
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            exit={{ opacity: 0 }}
-                          />
-                        )}
-                        {page}
-                      </NavContainer>
-                    </Anchor>
-                  </Link>
-                </li>
-              )
-            })}
-          </List>
-        </Nav>
+          {/* Mobile menu button */}
+          <div className="md:hidden flex items-center">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-gray-700 hover:text-blue-600 focus:outline-none focus:text-blue-600"
+            >
+              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                {isOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                )}
+              </svg>
+            </button>
+          </div>
+        </div>
 
-        <Aside>
-          <ButtonHeader
-            as="button"
-            type="button"
-            aria-label="Command"
-            onClick={query.toggle}
-            css={{ padding: '0 8px' }}
-          >
-            <Icon className="ri-command-line" />
-          </ButtonHeader>
-        </Aside>
-      </Header>
-    </AnimateSharedLayout>
-  )
-}
+        {/* Mobile menu */}
+        {isOpen && (
+          <div className="md:hidden">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white shadow-lg">
+              <Link href="/about" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition duration-300">
+                About
+              </Link>
+              <Link href="/projects" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition duration-300">
+                Projects
+              </Link>
+              <Link href="/blog" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition duration-300">
+                Blog
+              </Link>
+              <Link href="/contact" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition duration-300">
+                Contact
+              </Link>
+            </div>
+          </div>
+        )}
+      </div>
+    </nav>
+  );
+};
 
-const Header = styled('header', {
-  display: 'flex',
-  alignItems: 'center',
-  color: 'white',
-  fontSize: '12px',
-  minHeight: '59px',
-  width: '100%',
-  flexWrap: 'wrap',
-  position: 'absolute',
-  top: '0',
-  zIndex: 3,
-  marginTop: '13px',
-  '@bp2': { marginTop: '0' },
-})
-
-const List = styled('ul', {
-  margin: '0',
-  padding: '0',
-  listStyle: 'none',
-  display: 'inline-flex',
-  position: 'relative',
-  top: '5px',
-  '@bp1': { justifyContent: 'space-around' },
-})
-
-const ButtonHeader = styled('div', {
-  appearance: 'none',
-  background: 'transparent',
-  border: 'none',
-  borderRadius: '$borderRadius',
-  color: 'white',
-  cursor: 'pointer',
-  cursor: 'pointer',
-  height: '34px',
-  padding: '0 10px',
-  transition: 'background $duration ease-in-out',
-  '&:hover': { background: '$hover' },
-})
-
-const Icon = styled('i', {
-  fontSize: '24px',
-  lineHeight: '32px',
-})
-
-const ButtonLogo = styled(ButtonHeader, {
-  fontWeight: 700,
-  fontSize: '32px',
-  textDecoration: 'none',
-  marginLeft: '12px',
-  fontFamily: '$heading',
-})
-
-const Nav = styled('nav', {
-  textAlign: 'center',
-  flex: 1,
-  order: 2,
-  flexBasis: '100%',
-  '@bp2': { order: 0, flexBasis: 'initial' },
-  '@bp3': { overflowX: 'scroll', overflowY: 'hidden' },
-})
-
-const Aside = styled('div', {
-  display: 'flex',
-  alignItems: 'center',
-  paddingRight: '12px',
-  marginLeft: 'auto',
-})
-
-const Anchor = styled('a', {
-  border: 0,
-  position: 'relative',
-  '&:hover, &:focus': { opacity: 1 },
-})
-
-const NavContainer = styled(motion.span, {
-  color: '$secondary',
-  cursor: 'pointer',
-  display: 'inline-block',
-  fontSize: '12px',
-  fontWeight: 500,
-  letterSpacing: '1.2px',
-  padding: '20px',
-  textDecoration: 'none',
-  textTransform: 'uppercase',
-  transition: 'color $duration ease-in-out',
-  '&:hover': {
-    color: '$primary',
-  },
-  '&::after': {
-    content: '""',
-    position: 'absolute',
-    margin: '0px auto',
-    top: '18px',
-    left: '0px',
-    right: '0px',
-    height: '1px',
-    width: '20px',
-    background: 'rgb(255, 255, 255)',
-    opacity: 0,
-    transition: 'opacity $duration ease-in-out',
-  },
-})
-
-const NavHovered = styled(motion.span, {
-  position: 'absolute',
-  top: '-15px',
-  left: '0',
-  right: '0',
-  background: '$hover',
-  padding: 20,
-  borderRadius: '$borderRadius',
-  zIndex: -1,
-})
+export default Navbar;

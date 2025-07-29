@@ -2,6 +2,11 @@
  * Adapted from: https://github.com/dracula/prism/blob/master/src/css/dracula-prism.css
  */
 
+/**
+ * Prism.js syntax highlighting
+ * Enhanced with proper CSS structure and fixed syntax errors
+ */
+
 :root {
   --background: #151417;
   --comment: #6272a4;
@@ -50,33 +55,178 @@
   --yellow-40: #ffff80;
 }
 
+/* Base styles */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #ccc;
+  background: none;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 1em;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 1em;
+  margin: .5em 0;
+  overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background: #2d2d2d;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+}
+
 /* Selection */
-
-pre[class*='language-']::-moz-selection,
-pre[class*='language-'] ::-moz-selection,
-code[class*='language-']::-moz-selection,
-code[class*='language-'] ::-moz-selection {
-  text-shadow: none;
-  background-color: var(--selection);
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #999;
 }
 
-pre[class*='language-']::selection,
-pre[class*='language-'] ::selection,
-code[class*='language-']::selection,
-code[class*='language-'] ::selection {
-  text-shadow: none;
-  background-color: var(--selection);
+.token.punctuation {
+  color: #ccc;
 }
 
-/* Line numbers */
+.token.tag,
+.token.attr-name,
+.token.namespace,
+.token.deleted {
+  color: #e2777a;
+}
 
-pre.line-numbers {
+.token.function-name {
+  color: #6196cc;
+}
+
+.token.boolean,
+.token.number,
+.token.function {
+  color: #f08d49;
+}
+
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol {
+  color: #f8c555;
+}
+
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin {
+  color: #cc99cd;
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable {
+  color: #7ec699;
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+  color: #67cdcc;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.inserted {
+  color: green;
+}
+
+/* User selection */
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection {
+  text-shadow: none;
+  background: rgba(29, 59, 83, .99);
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+  text-shadow: none;
+  background: rgba(29, 59, 83, .99);
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+/* Language-specific styles */
+.language-css .token.string,
+.style .token.string {
+  color: #87c38a;
+}
+
+.language-javascript .token.keyword {
+  color: #cc99cd;
+}
+
+.language-typescript .token.keyword {
+  color: #cc99cd;
+}
+
+.language-json .token.property {
+  color: #6196cc;
+}
+
+.language-json .token.string {
+  color: #7ec699;
+}
+
+/* Line numbers plugin */
+pre[class*="language-"].line-numbers {
   position: relative;
   padding-left: 3.8em;
   counter-reset: linenumber;
 }
 
-pre.line-numbers > code {
+pre[class*="language-"].line-numbers > code {
   position: relative;
   white-space: inherit;
 }
@@ -87,10 +237,9 @@ pre.line-numbers > code {
   top: 0;
   font-size: 100%;
   left: -3.8em;
-  width: 3em; /* works for line-numbers below 1000 lines */
+  width: 3em;
   letter-spacing: -1px;
   border-right: 1px solid #999;
-
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -98,7 +247,6 @@ pre.line-numbers > code {
 }
 
 .line-numbers-rows > span {
-  pointer-events: none;
   display: block;
   counter-increment: linenumber;
 }
@@ -111,16 +259,15 @@ pre.line-numbers > code {
   text-align: right;
 }
 
-/* Toolbar for copying */
-
+/* Code toolbar plugin */
 div.code-toolbar {
   position: relative;
 }
 
 div.code-toolbar > .toolbar {
   position: absolute;
-  top: 0.3em;
-  right: 0.2em;
+  top: .3em;
+  right: .2em;
   transition: opacity 0.3s ease-in-out;
   opacity: 0;
 }
@@ -129,9 +276,12 @@ div.code-toolbar:hover > .toolbar {
   opacity: 1;
 }
 
+div.code-toolbar:focus-within > .toolbar {
+  opacity: 1;
+}
+
 div.code-toolbar > .toolbar .toolbar-item {
   display: inline-block;
-  padding-right: 20px;
 }
 
 div.code-toolbar > .toolbar a {
@@ -146,19 +296,22 @@ div.code-toolbar > .toolbar button {
   line-height: normal;
   overflow: visible;
   padding: 0;
-  -webkit-user-select: none; /* for button */
+  -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  user-select: none;
 }
 
 div.code-toolbar > .toolbar a,
 div.code-toolbar > .toolbar button,
 div.code-toolbar > .toolbar span {
-  color: var(--foreground);
-  font-size: 0.8em;
-  padding: 0.5em;
-  background: var(--comment);
-  border-radius: 0.5em;
+  color: #bbb;
+  font-size: .8em;
+  padding: 0 .5em;
+  background: #f5f2f0;
+  background: rgba(224, 224, 224, 0.2);
+  box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+  border-radius: .5em;
 }
 
 div.code-toolbar > .toolbar a:hover,
@@ -169,323 +322,12 @@ div.code-toolbar > .toolbar span:hover,
 div.code-toolbar > .toolbar span:focus {
   color: inherit;
   text-decoration: none;
-  background-color: var(--green);
 }
 
-/* Remove text shadow for printing */
-
+/* Print styles */
 @media print {
-  code[class*='language-'],
-  pre[class*='language-'] {
+  code[class*="language-"],
+  pre[class*="language-"] {
     text-shadow: none;
   }
-}
-
-code[class*='language-'],
-pre[class*='language-'] {
-  color: var(--foreground);
-  background: var(--background);
-  text-shadow: none;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  word-wrap: normal;
-  line-height: 1.5;
-
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
-
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
-}
-
-pre,
-code,
-pre code span {
-  font-family: var(--code);
-}
-
-/* Code blocks */
-
-pre[class*='language-'] {
-  background: var(--background);
-  border-radius: 0.5em;
-  padding: 1em;
-  margin: 0.5em 0;
-  overflow: auto;
-  height: auto;
-}
-
-:not(pre) > code[class*='language-'],
-pre[class*='language-'] {
-  background: var(--background);
-}
-
-/* Inline code */
-:not(pre) > code[class*='language-'] {
-  padding: 4px 7px;
-  border-radius: 0.3em;
-  white-space: normal;
-}
-
-/* Code box limit */
-
-.limit-300 {
-  height: 300px !important;
-}
-
-.limit-300 {
-  height: 400px !important;
-}
-
-.limit-500 {
-  height: 500px !important;
-}
-
-.limit-600 {
-  height: 600px !important;
-}
-
-.limit-700 {
-  height: 700px !important;
-}
-
-.limit-800 {
-  height: 800px !important;
-}
-
-.language-css {
-  color: var(--purple);
-}
-
-.token {
-  color: var(--pink);
-}
-
-.language-css .token {
-  color: var(--pink);
-}
-
-.language-css .token.color {
-  color: var(--purple);
-}
-
-.token.script {
-  color: var(--foreground);
-}
-
-.token.bold {
-  font-weight: bold;
-}
-
-.token.italic {
-  font-style: italic;
-}
-
-.token.atrule,
-.token.attr-name,
-.token.attr-value {
-  color: var(--green);
-}
-
-.language-css .token.atrule {
-  color: var(--purple);
-}
-
-.language-html .token.attr-value,
-.language-markup .token.attr-value {
-  color: var(--yellow);
-}
-
-.token.boolean {
-  color: var(--purple);
-}
-
-.token.builtin,
-.token.class-name {
-  color: var(--cyan);
-}
-
-.token.comment {
-  color: var(--comment);
-}
-
-.token.constant {
-  color: var(--purple);
-}
-
-.language-javascript .token.constant {
-  color: var(--orange);
-  font-style: italic;
-}
-
-.token.entity {
-  color: var(--pink);
-}
-
-.token.maybe-class-name,
-.token.property-access {
-  color: var(--foreground);
-}
-
-.language-css .token.entity {
-  color: var(--green);
-}
-
-.language-html .token.entity.named-entity {
-  color: var(--purple);
-}
-
-.language-html .token.entity:not(.named-entity) {
-  color: var(--pink);
-}
-
-.language-markup .token.entity.named-entity {
-  color: var(--purple);
-}
-
-.language-markup .token.entity:not(.named-entity) {
-  color: var(--pink);
-}
-
-.token.function {
-  color: var(--green);
-}
-
-.language-css .token.function {
-  color: var(--cyan);
-}
-
-.token.important,
-.token.keyword {
-  color: var(--pink);
-}
-
-.token.prolog {
-  color: var(--foreground);
-}
-
-.token.property {
-  color: var(--orange);
-}
-
-.language-css .token.property {
-  color: var(--cyan);
-}
-
-.token.punctuation {
-  color: var(--foreground);
-}
-
-.language-css .token.punctuation {
-  color: var(--foreground);
-}
-
-.language-html .token.punctuation,
-.language-markup .token.punctuation {
-  color: var(--foreground);
-}
-
-.token.selector {
-  color: var(--pink);
-}
-
-.language-css .token.selector {
-  color: var(--pink);
-}
-
-.token.regex {
-  color: var(--red);
-}
-
-.language-css .token.rule:not(.atrule) {
-  color: var(--foreground);
-}
-
-.token.string {
-  color: var(--yellow);
-}
-
-.token.tag {
-  color: var(--pink);
-}
-
-.token.url {
-  color: var(--cyan);
-}
-
-.language-css .token.url {
-  color: var(--orange);
-}
-
-.token.variable {
-  color: var(--foreground);
-}
-
-.token.number {
-  color: var(--purple);
-}
-
-.token.operator {
-  color: var(--pink);
-}
-
-.token.char {
-  color: var(--red);
-}
-
-.token.symbol {
-  color: var(--orange);
-}
-
-.token.deleted {
-  color: var(--red);
-}
-
-.token.namespace {
-  color: var(--red);
-}
-
-/* Line Highlighter */
-
-.highlight-line {
-  color: inherit;
-  display: inline-block;
-  text-decoration: none;
-
-  border-radius: 4px;
-  padding: 2px 10px;
-}
-
-.highlight-line:empty:before {
-  content: ' ';
-}
-
-.highlight-line:not(:last-child) {
-  min-width: 100%;
-}
-
-.highlight-line .highlight-line:not(:last-child) {
-  min-width: 0;
-}
-
-.highlight-line-isdir {
-  color: var(--foreground);
-  background-color: var(--selection-30);
-}
-
-.highlight-line-active {
-  background-color: var(--comment-30);
-}
-
-.highlight-line-add {
-  background-color: var(--green-30);
-}
-
-.highlight-line-remove {
-  background-color: var(--red-30);
 }
