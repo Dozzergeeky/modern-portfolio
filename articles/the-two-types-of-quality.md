@@ -134,4 +134,8 @@ Sometimes the most powerful option isn't the smartest choice. The RTX 5090 might
 
 ---
 
+<<<<<<< HEAD
 *What do you think? Are you planning to upgrade to the RTX 5090, or waiting to see what else comes to market? Let me know your thoughts on whether flagship GPUs are becoming too expensive for their own good.*
+=======
+*What do you think? Are you planning to upgrade to the RTX 5090, or waiting to see what else comes to market? Let me know your thoughts on whether flagship GPUs are becoming too expensive for their own good.*
+>>>>>>> 5dcf779 (updating articles)
