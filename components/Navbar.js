@@ -23,7 +23,7 @@ export default function Navbar() {
         <Link href="/" passHref>
           <ButtonLogo as="a" aria-label="Homepage">
             <img
-              src="/favicon.svg"
+              src="/favicon-white.svg"
               alt="Dozzer Geeky Logo"
               style={{ width: 36, height: 36, display: 'block' }}
               width={36}

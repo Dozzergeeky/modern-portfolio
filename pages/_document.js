@@ -27,7 +27,7 @@ export default class MyDocument extends Document {
 
           <link
             rel="icon"
-            href="/favicon.svg"
+            href="/favicon-white.svg"
             sizes="any"
             type="image/svg+xml"
           />
