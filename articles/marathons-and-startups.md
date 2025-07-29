@@ -1,71 +1,59 @@
 ---
-title: Marathons and Startups
-description: "Just ran my first race ever—the San Francisco Half Marathon. The experience? Surprisingly similar to building a startup. Here's what I learned..."
-slug: marathons-and-startups
-image: /static/img/posts/marathons-and-startups.jpg
-date: "2025-02-04"
+title: My Competitive Coding Experience
+description: "I compiled some of the learnings from my own experience and asked other friends from my class, so you can get a feel of what happens when you start CP."
+image: /static/img/posts/CP.jpg
+date: "2024-09-20"
 ---
 
-Just ran my first race ever—the San Francisco Half Marathon.
+Hey there *Fellow Geeks* ,
 
-The experience? Surprisingly similar to building a startup.
+I wanted to share a little story today of persistence, growth, and the magic that happens when you refuse to give up. 
 
-Here's what I learned...
+A few years back, I was just another aspiring coder, wide-eyed and eager to conquer the world of competitive programming. I dipped my toes first into the CodeChef contests, fueled by ambition and imposter syndrome. But guess what? The road to those shiny stars wasn't as straightforward as I'd hoped. 
 
-## 1. Unfavorable conditions
+## 1. The Struggle Bus 🚌
 
-When I woke up for race day, it was raining like crazy. By the time I arrived at Golden Gate Park, it was still raining. During the race, the rain got even worse.
+I vividly remember my early days—the frustration of staring at cryptic problem statements, the adrenaline rush during contests, and the inevitable disappointment when my submissions crashed and burned. 🙈 I stumbled, I fell, and I wondered if I'd ever crack the code (pun intended).
 
-That's how it feels when you start your own company. You might be too late, or maybe too early. The market might pull you into a different direction or your users may not like your product at first. You might need to pivot, or even start from the beginning again.
+## 2. Learning Data Structure and Algorithms 📚
 
-Whatever happens, conditions are never going to be perfect.
+Fast forward a bit in my second year of college, and been lucky enough to be a CS student, I had DSA as a paper which was my best scoring one. I watched countless YouTube tutorials, and spent started spending hours on GeeksforGeeks. I learned to think like a computer, to break down complex problems into bite-sized chunks, and to embrace the beauty of recursion. 🤓
 
-Don't expect a sunny day.
+## 3. The Right Tools for the Job 🛠️ 
 
-## 2. The real competition
+And then? Well, my fellow geeks, I'm was grateful to have another Algorithms course next year which was a bit more advanced. With two of my classmates by my side, we learned together in countless Google Meets to wield the power of dynamic programming, to master the art of backtracking, and to appreciate the elegance of graph algorithms. I also started using platforms like Codeforces, LeetCode, and HackerRank to sharpen my skills. 🚀
 
-When the race starts, you see all these people next to you. Some runners look similar to you, so you start running at the same pace. At some point, you try to run faster than them.
+## 4. The Light at the End of the Tunnel 💡
 
-As the race continues, you realize that beating yourself is going to be the hardest part.
+And you know what? Slowly but surely, the stars began to align. I started solving problems faster, my submissions turned from red to green, and I felt that sweet rush of victory. This many days I couldn't even go pass 1 star in CodeChef. Then I came back strong, with the knowlegde now at almost 3 ⭐. 
 
-Same with startups. In the early days, you want to beat Goliath. Goliath might be the slow, old-school market leader, or it could be this hot new startup that started earlier than you.
+>*'Embrace the Struggle. Share your victories, your defeats, and your favourite memes. Love What You Do. Coding isn't just about algorithms; it's about passion. When you love what you do, the stars align (pun intended, again).'*
 
-As time goes by, you understand that it doesn't matter what they do. What matters is what your users want, the problems they face, and the team you put together to tackle these problems.
+## 5. The Power of Community 🌐
 
-It's not about them. It's about you.
+But you know what truly changed the game for me? Consistent self-improvement. Each setback was an opportunity to learn, adapt, and come back stronger. 🤓
 
-## 3. It only gets harder
+## 6. Still struggling? 🤔
 
-During training, the longest I've ever run was 13 km (8 mi).
+If you're reading this and feeling a bit lost, don't worry. We've all been there. The key is to keep going, keep learning, and keep pushing yourself. I myself have not been able to stay consistent as there are college exams, internship,projects, and other things. But I know that I will come back stronger. You've got this! 🚀✨
 
-Coincidentally, the race circuit changed by the time we arrived at the 13th km. The whole race was inside a park, but at this point, we reached Ocean Beach. That segment was beyond brutal.
+## 7. The Heart of It All: Self-Improvement 🌱
 
-The headwind was so strong that you could barely move. Add heavy rain on top of it, and you can imagine how hard it was.
+But you know what truly changed the game for me? Consistent self-improvement. Each setback was an opportunity to learn, adapt, and come back stronger. 🤓
+Love What You Do: Coding isn't just about algorithms; it's about passion. When you love what you do, the stars align (pun intended, again).
 
-Startups are no different.
+## 🌟 Closing Thoughts
+So, remember whether you're a newbie or a seasoned pro, Your journey matters. Those stars? They're just celestial bling. What truly counts is the fire within—the one that keeps you coding, learning, and evolving.
+Here's to all the late nights, the "aha!" moments, and the joy of seeing that green tick. 🎉 
+Keep coding, keep growing, and keep shining. 🚀✨
 
-Getting the first users is incredibly hard. Making your first dollar is even harder. Reaching $1M ARR is extremely hard. Finding a repeatable model to continue growing is absurdly hard.
+Feel free to tweak, personalize, and sprinkle some of your magic on this post. And hey, congrats on your journey so far! 🎊 Keep shining, keep coding, and keep inspiring others. 🚀✨
 
-But just because it's hard, it doesn't mean you can't do it.
+P.S. If you're reading this, drop a comment below with your favourite coding emoji! 😄👾
 
-## 4. There's no finish line
+*Disclaimer: The views expressed here are solely mine (and maybe a little influenced by too much caffeine and sleepness nights). 😉*
 
-As I got closer to the end, I couldn't believe I was actually going to make it. 
+Remember, my friend, you're not alone on this journey. We're all in this together! 🤗
 
-Getting to that finish line was incredible, and I'm super happy I went through this experience.
-
-Still, today is a new day. Now that I'm done resting, I'll get back to training, and do it all over again.
-
-The reality is that the bar keeps moving. At a startup, you feel incredible when you close that first big customer or land an amazing logo. It's truly great when you hit that MRR target.
-
-Then, a new month arrives, and you have to reinvent yourself and find a way to beat that MRR goal again.
-
-## So how do you deal with all that?
-
-You find beauty in the small things.
-
-You enjoy the growing pains. You feel grateful for the scalability challenges. You find the process of building a team rewarding. You see people growing every single day.
-
-That's what makes it special.
-
-![An example of the Raycast Changelog](/static/img/posts/marathons-and-startups-a.jpg)
+Cheers, Dozzer
+P.P.S. If you need a virtual high-five, hit me up! 🙌
