@@ -1,11 +1,10 @@
 import { styled } from '../stitches.config'
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Base from '../layouts/Base'
 import ShortcutHome from '../components/ShortcutHome'
 import { PostMain, PostContent, PostContainer } from '../components/Post'
-import { Wrapper } from '../components/Wrapper'
 import { getPersonJsonLd } from '../lib/json-ld'
+import stripHtml from '../lib/strip-html'
 
 export async function getStaticProps() {
   return {
@@ -13,15 +12,17 @@ export async function getStaticProps() {
       title: 'Dozzer Geeky',
       description: 'Obsessed with technology, programming, and being a Geek!',
       image: '/static/images/home-bw.jpg',
+      primaryColor: 'cyan',
+      secondaryColor: 'green',
     },
   }
 }
 
-export default function Index(props) {
+function Index(props) {
   const { title, description, image } = props
 
   return (
-    <Wrapper>
+    <>
       <Head>
         <title>{title}</title>
         <meta content={title} property="og:title" />
@@ -38,38 +39,27 @@ export default function Index(props) {
         />
       </Head>
 
-      <Navbar />
-      <Home>
-        <PostContent>
-          <PostContainer>
-            <div>
-              <h1>{title}</h1>
-              <p>
-                <strong>
-                  CSE Graduate and Ex-MERN Mentor at{' '}
-                  <a
-                    href="https://www.linkedin.com/company/codefeast"
-                    target="blank"
-                  >
-                    Codefeast
-                  </a>
-                </strong>
-                <br />
-                {description}
-              </p>
-              <ShortcutHome />
-            </div>
-          </PostContainer>
-        </PostContent>
-      </Home>
-      <Footer />
-    </Wrapper>
+      <div>
+        <h1>{title}</h1>
+        <p>
+          <strong>
+            CSE Graduate and Ex-MERN Mentor at{' '}
+            <a
+              href="https://www.linkedin.com/company/codefeast"
+              target="blank"
+            >
+              Codefeast
+            </a>
+          </strong>
+          <br />
+          {description}
+        </p>
+        <ShortcutHome />
+      </div>
+    </>
   )
 }
 
-const Home = styled(PostMain, {
-  alignItems: 'center',
-  display: 'flex',
-  margin: '0 auto',
-  '@bp2': { width: 800 },
-})
+Index.Layout = Base
+
+export default Index
