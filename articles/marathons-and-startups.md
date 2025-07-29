@@ -57,9 +57,13 @@ Slowly but surely, the pieces began falling into place. My problem-solving speed
 
 What truly accelerated my growth was connecting with the coding community. I learned that:
 
+<<<<<<< HEAD
 - **Collaboration beats isolation**: Studying with peers provided different perspectives
 - **Sharing knowledge helps everyone**: Explaining concepts to others reinforced my own understanding
 - **Community support is invaluable**: Having people who understand your struggles makes the journey easier
+=======
+As I got closer to the end, I couldn't believe I was actually going to make it.
+>>>>>>> 93f0170 (Update articles with new content and improved titles for clarity and relevance)
 
 **The key insight**: Consistent self-improvement turned every setback into a learning opportunity.
 
@@ -81,6 +85,7 @@ Here's what I wish I'd known when starting:
 4. **Learn from failures**: Each wrong submission teaches you something new
 5. **Build a support network**: Find coding buddies who share your passion
 
+<<<<<<< HEAD
 ## Final Thoughts 🌟
 
 Whether you're a complete beginner or a seasoned programmer, remember that your journey is unique and valuable. Those rating stars are nice to have, but what truly matters is the growth mindset and passion that keeps you coding, learning, and evolving.
@@ -102,3 +107,6 @@ Remember, you're not alone on this journey. We're all learning and growing toget
 ---
 
 **About the Author**: Dozzer Geeky is a CSE graduate and former MERN mentor at Codefast, passionate about technology, programming, and helping others on their coding journey.
+=======
+![An example of the Raycast Changelog](/static/img/posts/marathons-and-startups-a.jpg)
+>>>>>>> 93f0170 (Update articles with new content and improved titles for clarity and relevance)
