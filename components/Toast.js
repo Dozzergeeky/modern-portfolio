@@ -37,11 +37,13 @@ const slideDownAndFade = keyframes({
 });
 
 const Root = styled(ToastPrimitive.Root, {
-  background: '$hover',
-  borderRadius: '4px',
-  border: '1px solid rgb(48, 50, 54)',
-  boxShadow: 'rgb(0 0 0 / 8%) 0px 4px 13px',
-  color: 'rgb(138, 143, 152)',
+  background: 'rgba(20, 30, 60, 0.8)',
+  backdropFilter: 'blur(20px)',
+  WebkitBackdropFilter: 'blur(20px)',
+  borderRadius: '8px',
+  border: '1px solid rgba(147, 197, 253, 0.2)',
+  boxShadow: '0 8px 32px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(147, 197, 253, 0.1)',
+  color: 'rgb(159, 179, 209)',
   fontSize: '14px',
   overflow: 'hidden',
   margin: '0px',

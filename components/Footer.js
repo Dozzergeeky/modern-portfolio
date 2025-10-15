@@ -54,7 +54,10 @@ export default function Footer() {
 }
 
 const Container = styled('footer', {
-  background: '$background',
+  background: 'rgba(20, 30, 60, 0.6)',
+  backdropFilter: 'blur(20px)',
+  WebkitBackdropFilter: 'blur(20px)',
+  border: '1px solid rgba(147, 197, 253, 0.1)',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',

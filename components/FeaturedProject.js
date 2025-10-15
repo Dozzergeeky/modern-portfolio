@@ -106,7 +106,10 @@ const AnimHovered = styled(motion.span, {
   left: '0',
   right: '0',
   bottom: '0',
-  background: '$hover',
+  background: 'rgba(147, 197, 253, 0.1)',
+  backdropFilter: 'blur(10px)',
+  WebkitBackdropFilter: 'blur(10px)',
+  border: '1px solid rgba(147, 197, 253, 0.2)',
   borderRadius: '$borderRadius',
   zIndex: -1,
 })
