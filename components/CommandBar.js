@@ -293,9 +293,7 @@ const Positioner = styled(KBarPositioner, {
   width: '100%',
   inset: '0px',
   padding: '14vh 16px 16px',
-  background: 'rgba(10, 14, 26, 0.85)',
-  backdropFilter: 'blur(8px)',
-  WebkitBackdropFilter: 'blur(8px)',
+  background: 'rgba(0, 0, 0, .8)',
   boxSizing: 'border-box',
 })
 
@@ -306,9 +304,8 @@ const Search = styled(KBarSearch, {
   boxSizing: 'border-box',
   outline: 'none',
   border: 'none',
-  borderBottom: '1px solid rgba(147, 197, 253, 0.1)',
   margin: 0,
-  background: 'rgba(147, 197, 253, 0.05)',
+  background: '$command',
   color: '$primary',
 })
 
@@ -317,19 +314,14 @@ const GroupName = styled('div', {
   fontSize: '10px',
   textTransform: 'uppercase',
   letterSpacing: '1px',
-  background: 'rgba(147, 197, 253, 0.08)',
-  color: 'rgba(147, 197, 253, 0.7)',
+  background: '$command',
 })
 
 const Kbd = styled('kbd', {
-  background: 'rgba(147, 197, 253, 0.15)',
-  backdropFilter: 'blur(10px)',
-  WebkitBackdropFilter: 'blur(10px)',
-  border: '1px solid rgba(147, 197, 253, 0.2)',
+  background: 'rgba(255, 255, 255, .1)',
   color: '$secondary',
   padding: '4px 8px',
   textTransform: 'uppercase',
-  borderRadius: '4px',
 })
 
 const Shortcut = styled('div', {
@@ -350,16 +342,17 @@ const ActionRow = styled('div', {
 })
 
 const Animator = styled(KBarAnimator, {
-  backgroundColor: 'rgba(20, 30, 60, 0.9)',
-  backdropFilter: 'saturate(180%) blur(30px)',
-  WebkitBackdropFilter: 'saturate(180%) blur(30px)',
-  border: '1px solid rgba(147, 197, 253, 0.2)',
-  boxShadow: '0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(147, 197, 253, 0.1)',
+  backgroundColor: '#1a1c1e',
   maxWidth: '600px',
   width: '100%',
   color: '$primary',
-  borderRadius: '12px',
+  borderRadius: '8px',
   overflow: 'hidden',
+  '@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none))': {
+    backgroundColor: '$command',
+    WebkitBackdropFilter: 'saturate(300%) blur(25px)',
+    backdropFilter: 'saturate(300%) blur(25px)',
+  },
 
   /* Hide scrollbar for Chrome, Safari and Opera */
   '& > div > div::-webkit-scrollbar': {
@@ -376,14 +369,12 @@ const Animator = styled(KBarAnimator, {
 const getResultStyle = active => {
   return {
     padding: '12px 16px',
-    background: active ? 'rgba(147, 197, 253, 0.15)' : 'rgba(147, 197, 253, 0.03)',
+    background: active ? 'rgba(255, 255, 255, 0.1)' : '$command',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
     margin: 0,
     cursor: 'pointer',
     color: active ? '$primary' : '$secondary',
-    transition: 'all 0.2s ease-in-out',
-    borderRadius: '8px',
   }
 }
